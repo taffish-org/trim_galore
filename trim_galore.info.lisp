@@ -1,0 +1,7 @@
+(:name           "trim_galore")
+(:repo           "taffish-org/trim_galore")
+(:author         "KaiyuanHan")
+(:version        "0.6.10")
+(:intro          "A wrapper around Cutadapt and FastQC to consistently apply adapter and quality trimming to FastQ files, with extra functionality for RRBS data.")
+(:dependencies)
+(:functions      "trim_galore")

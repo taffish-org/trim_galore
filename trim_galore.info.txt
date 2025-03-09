@@ -1,0 +1,9 @@
+# <trim_galore:0.6.10 | KaiyuanHan | 2025-03-09>
+ARGS
+    <else>
+        trim_galore --help
+    <main>
+        trim_galore ::*APP-ARGS*::
+RUN
+    <container:taf-trim_galore-v0.6.10:ghcr.io/taffish-org/trim_galore:0.6.10>
+        ::*MAIN*::
